@@ -1,0 +1,382 @@
+body {
+	font-family: Roboto, sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+header {
+	background-color: rgba(0, 0, 0, .85);
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 6;
+}
+
+nav {
+	height: 50px;
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header a {
+	font-size: 12px;
+	text-decoration: none;
+	color: lightgrey;
+	transition: .5s;
+}
+
+header a:hover {
+	color: white;
+	transition: .5s;
+}
+
+.logo {
+	font-size: 20px;
+}
+
+/* corps */
+
+.ensemble-produit {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.carousel-inner {
+	width: 100%;
+	height: 793px;
+}
+
+/*iphone banner*/
+
+#iPhone {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#iPhone img {
+	width: 100%;
+}
+
+#iphone-13 {
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	bottom: 50%;
+	z-index: 5;
+	color: white;
+	height: 200px;
+	width: 100%;
+}
+
+#iphone-13 a {
+	padding: 1%;
+	color: skyblue;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#iphone-13 a:hover {
+	color: skyblue;
+	text-decoration: underline;
+	transition: .5s;
+}
+
+/*ipad banner*/
+
+#ipad {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: auto;
+	padding-right: 1%;
+}
+
+#ipad img {
+	width: 100%;
+}
+
+#IPAD {
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	bottom: 50%;
+	z-index: 5;
+	color: black;
+	height: 200px;
+	width: 100%;
+}
+
+#IPAD a {
+	padding: 1%;
+	color: skyblue;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#IPAD a:hover {
+	color: skyblue;
+	text-decoration: underline;
+	transition: .5s;
+}
+
+/*ipad banner*/
+
+#airpods {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: auto;
+}
+
+#airpods img {
+	width: 100%;
+}
+
+#AirPod {
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	bottom: 50%;
+	z-index: 5;
+	color: black;
+	height: 200px;
+	width: 100%;
+}
+
+#AirPod a {
+	padding: 1%;
+	color: skyblue;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#AirPod a:hover {
+	color: skyblue;
+	text-decoration: underline;
+	transition: .5s;
+}
+
+/* line aligned */
+
+.second-line {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.third-line {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+/* Mac banner */
+
+#macbook {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#macbook img {
+	width: 100%;
+}
+
+#Mac {
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	bottom: 50%;
+	z-index: 5;
+	color: white;
+	height: 200px;
+	width: 100%;
+}
+
+#Mac a {
+	padding: 1%;
+	color: skyblue;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#Mac a:hover {
+	color: skyblue;
+	text-decoration: underline;
+	transition: .5s;
+}
+
+/*TV banner*/
+
+#TV {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: auto;
+	padding-right: 1%;
+}
+
+#TV img {
+	width: 100%;
+}
+
+#tv {
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	bottom: 50%;
+	z-index: 5;
+	color: white;
+	height: 200px;
+	width: 100%;
+}
+
+#tv a {
+	padding: 1%;
+	color: skyblue;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#tv a:hover {
+	color: skyblue;
+	text-decoration: underline;
+	transition: .5s;
+}
+
+/*watch banner*/
+
+#watch {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: auto;
+}
+
+#watch img {
+	width: 100%;
+}
+
+#WATCH {
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	bottom: 50%;
+	z-index: 5;
+	color: white;
+	height: 200px;
+	width: 100%;
+}
+
+#WATCH a {
+	padding: 1%;
+	color: skyblue;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#WATCH a:hover {
+	color: skyblue;
+	text-decoration: underline;
+	transition: .5s;
+}
+
+footer{
+	background:lightgrey;
+	position:absolute;
+	margin-bottom:0;
+	width:100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center ;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer a {
+	color: rgba(0, 0, 0, .60);
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: rgba(0, 0, 0, .60);
+	text-decoration: underline;
+}
+
+/*newsletter banner */
+
+#newsletter {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	padding-left: auto;
+	padding-right: auto;
+	height: 700px;
+	width: 100%;
+}
+
+#NEWS {
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	bottom: 50%;
+	z-index: 5;
+	color: black;
+	height: 200px;
+	width: 100%;
+}
+
+.button {
+	padding: 1%;
+	background-color: black ;
+	color: white;
+	font-size: 15px;
+	width: 20%;
+	margin: 0 auto;
+	border-radius: 10px;
+	transition: .5s;
+}
+
+.button:hover {
+	background-color: darkgray;
+	transition: .5s;
+}
+
+.button a {
+	text-decoration: none;
+}
